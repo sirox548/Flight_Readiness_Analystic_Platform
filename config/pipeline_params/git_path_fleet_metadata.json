@@ -1,0 +1,32 @@
+[
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/fleet-metadata/fleet_metadata.csv",
+        "p_sink_folder": "fleet_metadata",
+        "p_file_name": "fleet_metadata.csv",
+        "p_file_type": "csv"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/fleet-metadata/component_master.csv",
+        "p_sink_folder": "component_master",
+        "p_file_name": "component_master.csv",
+        "p_file_type": "csv"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/fleet-metadata/aog_cost_reference.csv",
+        "p_sink_folder": "aog_cost_reference",
+        "p_file_name": "aog_cost_reference.csv",
+        "p_file_type": "csv"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/fleet-metadata/anomaly_thresholds.json",
+        "p_sink_folder": "anomaly_thresholds",
+        "p_file_name": "anomaly_thresholds.json",
+        "p_file_type": "json"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/fleet-metadata/data_dictionary.json",
+        "p_sink_folder": "data_dictionary",
+        "p_file_name": "data_dictionary.json",
+        "p_file_type": "json"
+    }
+]

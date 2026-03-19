@@ -1,0 +1,74 @@
+[
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/train_FD001.txt",
+        "p_sink_folder": "train_FD001",
+        "p_file_name": "train_FD001.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/test_FD001.txt",
+        "p_sink_folder": "test_FD001",
+        "p_file_name": "test_FD001.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/RUL_FD001.txt",
+        "p_sink_folder": "RUL_FD001",
+        "p_file_name": "RUL_FD001.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/train_FD002.txt",
+        "p_sink_folder": "train_FD002",
+        "p_file_name": "train_FD002.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/test_FD002.txt",
+        "p_sink_folder": "test_FD002",
+        "p_file_name": "test_FD002.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/RUL_FD002.txt",
+        "p_sink_folder": "RUL_FD002",
+        "p_file_name": "RUL_FD002.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/train_FD003.txt",
+        "p_sink_folder": "train_FD003",
+        "p_file_name": "train_FD003.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/test_FD003.txt",
+        "p_sink_folder": "test_FD003",
+        "p_file_name": "test_FD003.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/RUL_FD003.txt",
+        "p_sink_folder": "RUL_FD003",
+        "p_file_name": "RUL_FD003.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/train_FD004.txt",
+        "p_sink_folder": "train_FD004",
+        "p_file_name": "train_FD004.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/test_FD004.txt",
+        "p_sink_folder": "test_FD004",
+        "p_file_name": "test_FD004.txt",
+        "p_file_type": "txt"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/sensor/RUL_FD004.txt",
+        "p_sink_folder": "RUL_FD004",
+        "p_file_name": "RUL_FD004.txt",
+        "p_file_type": "txt"
+    }
+]

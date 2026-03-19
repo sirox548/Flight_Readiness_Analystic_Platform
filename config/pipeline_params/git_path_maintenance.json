@@ -1,0 +1,26 @@
+[
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/Maintenance/mro_events_2020.json",
+        "p_sink_folder": "mro_events_2020",
+        "p_file_name": "mro_events_2020.json",
+        "p_file_type": "json"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/Maintenance/mro_events_2021.json",
+        "p_sink_folder": "mro_events_2021",
+        "p_file_name": "mro_events_2021.json",
+        "p_file_type": "json"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/Maintenance/mro_events_2022.json",
+        "p_sink_folder": "mro_events_2022",
+        "p_file_name": "mro_events_2022.json",
+        "p_file_type": "json"
+    },
+    {
+        "path_rel_url": "sirox548/Flight_Readiness_Analystic_Platform/refs/heads/main/Data/Maintenance/mro_events_2023.json",
+        "p_sink_folder": "mro_events_2023",
+        "p_file_name": "mro_events_2023.json",
+        "p_file_type": "json"
+    }
+]
