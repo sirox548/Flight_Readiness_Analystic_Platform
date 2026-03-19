@@ -1,0 +1,270 @@
+{
+  "project": "Collins Aerospace \u2014 Flight-Ready Intelligence Platform",
+  "version": "1.0",
+  "generated": "2026-03-17T19:37:51",
+  "datasets": [
+    {
+      "name": "CMAPSS Sensor Data",
+      "adls_path": "raw/sensor/",
+      "files": [
+        "CMAPSS_FD001_train.txt/.parquet",
+        "CMAPSS_FD001_test.txt/.parquet",
+        "CMAPSS_FD001_RUL.txt",
+        "(same for FD002, FD003, FD004)"
+      ],
+      "format": [
+        "txt (space-delimited)",
+        "parquet"
+      ],
+      "columns": [
+        {
+          "name": "unit_id",
+          "type": "int",
+          "description": "Engine/component identifier (maps to component_id in Gold)"
+        },
+        {
+          "name": "cycle",
+          "type": "int",
+          "description": "Operational cycle count"
+        },
+        {
+          "name": "setting_1",
+          "type": "float",
+          "description": "Operational setting 1 (altitude/Mach proxy)"
+        },
+        {
+          "name": "setting_2",
+          "type": "float",
+          "description": "Operational setting 2 (throttle resolver angle)"
+        },
+        {
+          "name": "setting_3",
+          "type": "float",
+          "description": "Operational setting 3 (TRA)"
+        },
+        {
+          "name": "s1",
+          "type": "float",
+          "description": "s1"
+        },
+        {
+          "name": "s2",
+          "type": "float",
+          "description": "s2"
+        },
+        {
+          "name": "s3",
+          "type": "float",
+          "description": "s3"
+        },
+        {
+          "name": "s4",
+          "type": "float",
+          "description": "s4"
+        },
+        {
+          "name": "s5",
+          "type": "float",
+          "description": "s5"
+        },
+        {
+          "name": "s6",
+          "type": "float",
+          "description": "s6"
+        },
+        {
+          "name": "s7",
+          "type": "float",
+          "description": "s7"
+        },
+        {
+          "name": "s8",
+          "type": "float",
+          "description": "s8"
+        },
+        {
+          "name": "s9",
+          "type": "float",
+          "description": "s9"
+        },
+        {
+          "name": "s10",
+          "type": "float",
+          "description": "s10"
+        },
+        {
+          "name": "s11",
+          "type": "float",
+          "description": "s11"
+        },
+        {
+          "name": "s12",
+          "type": "float",
+          "description": "s12"
+        },
+        {
+          "name": "s13",
+          "type": "float",
+          "description": "s13"
+        },
+        {
+          "name": "s14",
+          "type": "float",
+          "description": "s14"
+        },
+        {
+          "name": "s15",
+          "type": "float",
+          "description": "s15"
+        },
+        {
+          "name": "s16",
+          "type": "float",
+          "description": "s16"
+        },
+        {
+          "name": "s17",
+          "type": "float",
+          "description": "s17"
+        },
+        {
+          "name": "s18",
+          "type": "float",
+          "description": "s18"
+        },
+        {
+          "name": "s19",
+          "type": "float",
+          "description": "s19"
+        },
+        {
+          "name": "s20",
+          "type": "float",
+          "description": "s20"
+        },
+        {
+          "name": "s21",
+          "type": "float",
+          "description": "s21"
+        }
+      ],
+      "sub_datasets": {
+        "FD001": "1 fault mode, 1 operating condition \u2014 simplest degradation",
+        "FD002": "1 fault mode, 6 operating conditions \u2014 multi-condition",
+        "FD003": "2 fault modes, 1 operating condition",
+        "FD004": "2 fault modes, 6 operating conditions \u2014 most complex"
+      },
+      "gold_table": "fact_sensor_readings"
+    },
+    {
+      "name": "Fleet Metadata",
+      "adls_path": "raw/fleet-metadata/fleet_metadata.csv",
+      "format": "csv",
+      "columns": [
+        "aircraft_id",
+        "tail_number",
+        "aircraft_type",
+        "operator",
+        "fleet_id",
+        "entry_service_date",
+        "manufacturer",
+        "total_flight_hours",
+        "base_airport",
+        "active"
+      ],
+      "gold_table": "dim_aircraft"
+    },
+    {
+      "name": "Component Master",
+      "adls_path": "raw/fleet-metadata/component_master.csv",
+      "format": "csv",
+      "columns": [
+        "component_id",
+        "aircraft_id",
+        "part_number",
+        "description",
+        "system_type",
+        "OEM",
+        "expected_life_cycles",
+        "install_date",
+        "cage_code",
+        "criticality"
+      ],
+      "gold_table": "dim_component"
+    },
+    {
+      "name": "MRO Event Log",
+      "adls_path": "raw/maintenance/mro_events_{year}.json",
+      "format": "JSON (records), partitioned by year",
+      "columns": [
+        "event_id",
+        "component_id",
+        "aircraft_id",
+        "maint_type_code",
+        "maint_type_name",
+        "maint_category",
+        "event_datetime",
+        "duration_hrs",
+        "labor_cost_usd",
+        "parts_cost_usd",
+        "total_cost_usd",
+        "technician_id",
+        "station",
+        "outcome",
+        "ata_chapter",
+        "work_order",
+        "aog_event"
+      ],
+      "gold_table": "fact_mro_events"
+    },
+    {
+      "name": "Anomaly Thresholds",
+      "adls_path": "raw/fleet-metadata/anomaly_thresholds.json",
+      "format": "JSON",
+      "columns": [
+        "sensor_id",
+        "sensor_name",
+        "warning_threshold_delta_pct",
+        "critical_threshold_delta_pct",
+        "baseline_mean",
+        "baseline_std",
+        "component_family",
+        "direction",
+        "alert_owner"
+      ],
+      "gold_table": "reference \u2014 used in dbt anomaly_flag logic"
+    },
+    {
+      "name": "AOG Cost Reference",
+      "adls_path": "raw/fleet-metadata/aog_cost_reference.csv",
+      "format": "csv",
+      "columns": [
+        "aircraft_type",
+        "aog_hourly_cost_usd",
+        "aog_avg_duration_hrs",
+        "avg_pax_capacity",
+        "revenue_per_flight_usd",
+        "maintenance_labor_rate_usd_hr",
+        "source"
+      ],
+      "gold_table": "dim_aog_cost_reference"
+    },
+    {
+      "name": "Streaming Telemetry (Event Hub sample)",
+      "adls_path": "raw/streaming/telemetry_sample_YYYYMMDD_HH.json",
+      "format": "NDJSON (one JSON object per line)",
+      "columns": [
+        "event_id",
+        "component_id",
+        "timestamp",
+        "source",
+        "sensors (s1..s21)",
+        "op_setting_1",
+        "op_setting_2",
+        "op_setting_3",
+        "partition_key"
+      ],
+      "gold_table": "fact_sensor_readings (merged with batch)"
+    }
+  ]
+}

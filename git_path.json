@@ -1,0 +1,112 @@
+[
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD001_train.txt",
+        "p_sink_folder": "CMAPSS_FD001_train",
+        "p_file_name": "CMAPSS_FD001_train.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD001_test.txt",
+        "p_sink_folder": "CMAPSS_FD001_test",
+        "p_file_name": "CMAPSS_FD001_test.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD001_RUL.txt",
+        "p_sink_folder": "CMAPSS_FD001_RUL",
+        "p_file_name": "CMAPSS_FD001_RUL.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD002_train.txt",
+        "p_sink_folder": "CMAPSS_FD002_train",
+        "p_file_name": "CMAPSS_FD002_train.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD002_test.txt",
+        "p_sink_folder": "CMAPSS_FD002_test",
+        "p_file_name": "CMAPSS_FD002_test.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD002_RUL.txt",
+        "p_sink_folder": "CMAPSS_FD002_RUL",
+        "p_file_name": "CMAPSS_FD002_RUL.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD003_train.txt",
+        "p_sink_folder": "CMAPSS_FD003_train",
+        "p_file_name": "CMAPSS_FD003_train.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD003_test.txt",
+        "p_sink_folder": "CMAPSS_FD003_test",
+        "p_file_name": "CMAPSS_FD003_test.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD003_RUL.txt",
+        "p_sink_folder": "CMAPSS_FD003_RUL",
+        "p_file_name": "CMAPSS_FD003_RUL.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD004_train.txt",
+        "p_sink_folder": "CMAPSS_FD004_train",
+        "p_file_name": "CMAPSS_FD004_train.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD004_test.txt",
+        "p_sink_folder": "CMAPSS_FD004_test",
+        "p_file_name": "CMAPSS_FD004_test.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Sensor/CMAPSS_FD004_RUL.txt",
+        "p_sink_folder": "CMAPSS_FD004_RUL",
+        "p_file_name": "CMAPSS_FD004_RUL.txt"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/FleetMetadata/fleet_metadata.csv",
+        "p_sink_folder": "fleet_metadata",
+        "p_file_name": "fleet_metadata.csv"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/FleetMetadata/component_master.csv",
+        "p_sink_folder": "component_master",
+        "p_file_name": "component_master.csv"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/FleetMetadata/anomaly_thresholds.json",
+        "p_sink_folder": "anomaly_thresholds",
+        "p_file_name": "anomaly_thresholds.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/FleetMetadata/aog_cost_reference.csv",
+        "p_sink_folder": "aog_cost_reference",
+        "p_file_name": "aog_cost_reference.csv"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/FleetMetadata/data_dictionary.json",
+        "p_sink_folder": "data_dictionary",
+        "p_file_name": "data_dictionary.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Maintenance/mro_events_2020.json",
+        "p_sink_folder": "mro_events_2020",
+        "p_file_name": "mro_events_2020.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Maintenance/mro_events_2021.json",
+        "p_sink_folder": "mro_events_2021",
+        "p_file_name": "mro_events_2021.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Maintenance/mro_events_2022.json",
+        "p_sink_folder": "mro_events_2022",
+        "p_file_name": "mro_events_2022.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Maintenance/mro_events_2023.json",
+        "p_sink_folder": "mro_events_2023",
+        "p_file_name": "mro_events_2023.json"
+    },
+    {
+        "path_rel_url": "collins-aerospace/flight-ready-intelligence/refs/heads/main/Data/Streaming/telemetry_sample_20240115_08.json",
+        "p_sink_folder": "telemetry_sample_20240115_08",
+        "p_file_name": "telemetry_sample_20240115_08.json"
+    }
+]

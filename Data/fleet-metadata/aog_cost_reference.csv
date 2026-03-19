@@ -1,0 +1,11 @@
+aircraft_type,aog_hourly_cost_usd,aog_avg_duration_hrs,avg_pax_capacity,revenue_per_flight_usd,maintenance_labor_rate_usd_hr,source
+B737-800,10433,13.6,147,180816,144,Aviation Week Industry Reference 2023
+B737-900,17376,34.8,361,40958,179,Aviation Week Industry Reference 2023
+B757-200,9986,36.3,250,44003,131,Aviation Week Industry Reference 2023
+B767-300,23741,25.5,345,54211,115,Aviation Week Industry Reference 2023
+B777-200,10368,7.6,305,57907,108,Aviation Week Industry Reference 2023
+A320-200,19272,43.9,244,58941,102,Aviation Week Industry Reference 2023
+A321-200,11231,42.1,366,163265,168,Aviation Week Industry Reference 2023
+A330-300,18382,35.4,351,157939,164,Aviation Week Industry Reference 2023
+MD-11F,20672,19.2,151,64331,169,Aviation Week Industry Reference 2023
+B747-400F,19698,42.0,409,88799,157,Aviation Week Industry Reference 2023

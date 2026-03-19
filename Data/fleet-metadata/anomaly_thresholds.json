@@ -1,0 +1,233 @@
+[
+  {
+    "sensor_id": "s1",
+    "sensor_name": "sensor_01",
+    "warning_threshold_delta_pct": 6.49,
+    "critical_threshold_delta_pct": 9.73,
+    "baseline_mean": 518.67,
+    "baseline_std": 0.0,
+    "component_family": "Environmental Control",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s2",
+    "sensor_name": "sensor_02",
+    "warning_threshold_delta_pct": 3.97,
+    "critical_threshold_delta_pct": 9.0,
+    "baseline_mean": 641.82,
+    "baseline_std": 0.5,
+    "component_family": "Landing Gear",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s3",
+    "sensor_name": "sensor_03",
+    "warning_threshold_delta_pct": 4.34,
+    "critical_threshold_delta_pct": 13.74,
+    "baseline_mean": 1589.7,
+    "baseline_std": 6.0,
+    "component_family": "Fuel Systems",
+    "direction": "above",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s4",
+    "sensor_name": "sensor_04",
+    "warning_threshold_delta_pct": 5.97,
+    "critical_threshold_delta_pct": 14.79,
+    "baseline_mean": 1400.6,
+    "baseline_std": 8.5,
+    "component_family": "APU",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s5",
+    "sensor_name": "sensor_05",
+    "warning_threshold_delta_pct": 6.86,
+    "critical_threshold_delta_pct": 11.33,
+    "baseline_mean": 14.62,
+    "baseline_std": 0.0,
+    "component_family": "Flight Controls",
+    "direction": "above",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s6",
+    "sensor_name": "sensor_06",
+    "warning_threshold_delta_pct": 3.05,
+    "critical_threshold_delta_pct": 10.58,
+    "baseline_mean": 21.61,
+    "baseline_std": 0.0,
+    "component_family": "Cabin Systems",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s7",
+    "sensor_name": "sensor_07",
+    "warning_threshold_delta_pct": 6.91,
+    "critical_threshold_delta_pct": 13.5,
+    "baseline_mean": 553.36,
+    "baseline_std": 0.5,
+    "component_family": "Avionics",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s8",
+    "sensor_name": "sensor_08",
+    "warning_threshold_delta_pct": 6.66,
+    "critical_threshold_delta_pct": 10.45,
+    "baseline_mean": 2388.06,
+    "baseline_std": 0.03,
+    "component_family": "Environmental Control",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s9",
+    "sensor_name": "sensor_09",
+    "warning_threshold_delta_pct": 5.26,
+    "critical_threshold_delta_pct": 10.82,
+    "baseline_mean": 9046.19,
+    "baseline_std": 1.2,
+    "component_family": "APU",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s10",
+    "sensor_name": "sensor_10",
+    "warning_threshold_delta_pct": 3.89,
+    "critical_threshold_delta_pct": 10.21,
+    "baseline_mean": 1.3,
+    "baseline_std": 0.0,
+    "component_family": "Flight Controls",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s11",
+    "sensor_name": "sensor_11",
+    "warning_threshold_delta_pct": 4.63,
+    "critical_threshold_delta_pct": 10.33,
+    "baseline_mean": 47.47,
+    "baseline_std": 0.22,
+    "component_family": "Flight Controls",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s12",
+    "sensor_name": "sensor_12",
+    "warning_threshold_delta_pct": 6.49,
+    "critical_threshold_delta_pct": 14.09,
+    "baseline_mean": 521.66,
+    "baseline_std": 0.03,
+    "component_family": "Landing Gear",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s13",
+    "sensor_name": "sensor_13",
+    "warning_threshold_delta_pct": 6.85,
+    "critical_threshold_delta_pct": 14.72,
+    "baseline_mean": 2388.02,
+    "baseline_std": 0.03,
+    "component_family": "Fuel Systems",
+    "direction": "above",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s14",
+    "sensor_name": "sensor_14",
+    "warning_threshold_delta_pct": 3.09,
+    "critical_threshold_delta_pct": 10.75,
+    "baseline_mean": 8138.62,
+    "baseline_std": 8.5,
+    "component_family": "Navigation",
+    "direction": "above",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s15",
+    "sensor_name": "sensor_15",
+    "warning_threshold_delta_pct": 6.02,
+    "critical_threshold_delta_pct": 14.67,
+    "baseline_mean": 8.4195,
+    "baseline_std": 0.002,
+    "component_family": "Navigation",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s16",
+    "sensor_name": "sensor_16",
+    "warning_threshold_delta_pct": 3.71,
+    "critical_threshold_delta_pct": 12.16,
+    "baseline_mean": 0.03,
+    "baseline_std": 0.0,
+    "component_family": "Engine",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s17",
+    "sensor_name": "sensor_17",
+    "warning_threshold_delta_pct": 6.74,
+    "critical_threshold_delta_pct": 8.62,
+    "baseline_mean": 392.0,
+    "baseline_std": 0.0,
+    "component_family": "Hydraulics",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s18",
+    "sensor_name": "sensor_18",
+    "warning_threshold_delta_pct": 5.38,
+    "critical_threshold_delta_pct": 9.48,
+    "baseline_mean": 2388.0,
+    "baseline_std": 0.0,
+    "component_family": "APU",
+    "direction": "below",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s19",
+    "sensor_name": "sensor_19",
+    "warning_threshold_delta_pct": 6.73,
+    "critical_threshold_delta_pct": 14.48,
+    "baseline_mean": 100.0,
+    "baseline_std": 0.0,
+    "component_family": "Fuel Systems",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s20",
+    "sensor_name": "sensor_20",
+    "warning_threshold_delta_pct": 4.99,
+    "critical_threshold_delta_pct": 12.69,
+    "baseline_mean": 39.06,
+    "baseline_std": 0.02,
+    "component_family": "Hydraulics",
+    "direction": "either",
+    "alert_owner": "MRO-OPS"
+  },
+  {
+    "sensor_id": "s21",
+    "sensor_name": "sensor_21",
+    "warning_threshold_delta_pct": 4.14,
+    "critical_threshold_delta_pct": 8.57,
+    "baseline_mean": 23.419,
+    "baseline_std": 0.01,
+    "component_family": "Engine",
+    "direction": "above",
+    "alert_owner": "MRO-OPS"
+  }
+]
